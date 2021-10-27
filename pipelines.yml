@@ -20,7 +20,7 @@ pipelines:
             sourceLocation: java-backend-service
             mvnCommand: clean install -ntp
             configFileLocation: .
-              configFileName: mvn-art-config
+            configFileName: mvn-art-config
             inputResources:
               - name: myTestGitRepo
             integrations:
