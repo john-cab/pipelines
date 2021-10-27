@@ -3,6 +3,6 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: johnca_github
-      path: john_cab/pipelines
+      path: john-cab/pipelines
       branches:
         include: master
