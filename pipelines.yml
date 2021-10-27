@@ -1,0 +1,8 @@
+resources:
+  - name: myGitRepo
+    type: GitRepo
+    configuration:
+      gitProvider: {Integration name, GitHub_Enterprise I think}
+      path: tools/pipeline 
+      branches:
+        include: master
